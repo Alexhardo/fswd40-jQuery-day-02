@@ -1,0 +1,46 @@
+var products = [{
+    "name": "Armband with anker",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "100,00",
+},
+{
+    "name": "JBO Bag",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "50,00",
+},
+{
+    "name": "Pale Bag",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "250,00",
+},
+{
+    "name": "Black rucksack",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "180,00",
+},
+{
+    "name": "Grey Cap",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "60,00",
+},
+{
+    "name": "Hair Ring",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "25,00",
+},
+{
+    "name": "Keystar",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "45,00",
+},
+{
+    "name": "Flat shows",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "190,00",
+},
+{
+    "name": "Leather Wallet",
+    "description": "Lorem ipsum dolor sit amet, consectetur!",
+    "price": "110,00",
+},
+];
