@@ -1,9 +1,108 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
 
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <h1> Basic 1</h1>
+    <div class="container1">
+        <div id="bell">
+            <img src="bell.jpg">
+            <p id="bellnm">this is the bell</p>
+        </div>
+        <div id="present">
+            <img src="present.png">
+            <p id="presnm">this is the present</p>
+        </div>
+        <div id="santa">
+            <img src="santa.png">
+            <p id="snnm">this is the santa</p>
+        </div>
+    </div>
+    <hr> ////////////////////////////////////
+    <h1> Basic 2</h1>
+    <div class="container2">
+        <div class="ob">
+            <img src="present.png">
+        </div>
+        <div class="ob">
+            <img id="san" src="santa.png">
+        </div>
+        <div class="ob">
+            <img src="present.png">
+        </div>
+        <div class="ob">
+            <img id="san" src="santa.png">
+        </div>
+        <div class="ob">
+            <img src="present.png">
+        </div>
+        <div class="ob">
+            <img id="san" src="santa.png">
+        </div>
+        <div class="ob">
+            <img src="present.png">
+        </div>
+        <div class="ob">
+            <img id="san" src="santa.png">
+        </div>
+        <div class="ob">
+            <img id="san" src="santa.png">
+        </div>
+    </div>
+    <script>
+    $("#bellnm,#presnm,#snnm ").hide();
+
+
+    $(document).ready(function() {
+        $('#bell').on('click', function() {
+            hideobj("#bellnm");
+
+        })
+
+        $('#present').on('click', function() {
+            hideobj("#presnm");
+
+        })
+
+        $('#santa').on('click', function() {
+            hideobj("#snnm");
+
+        })
+
+        function hideobj(target) {
+
+            $(target).toggle();
+
+        }
+
+        ////////////////////////////////////////////////
+        $('.ob').on('click', function() {
+            if ($(this).children("img#san").length > 0) //.attr("[srcsanta.png"))
+            {
+                $(this).toggleClass("hidea showa")
+                // hideshow("#santa1");
+            }
+
+        })
+        ////////////////////////////////////////////
+        function hideshow(target) {
+            $(target).toggleClass("showa hidea");
+
+        }
+
+
+
+
+
+
+
+    });
+    </script>
 </body>
+
 </html>
